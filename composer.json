@@ -1,0 +1,29 @@
+{
+    "name": "puritandesigns/terminal-user",
+    "description": "Create a Laravel User via artisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Kelly",
+            "email": "puritandesigns@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TerminalUser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TerminalUser\\Providers\\TerminalUserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "illuminate/console": "^5.7",
+      "illuminate/auth": "^5.7",
+      "illuminate/support": "^5.7"
+    }
+}
