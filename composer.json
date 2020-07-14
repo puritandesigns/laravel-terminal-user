@@ -23,8 +23,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-      "illuminate/console": "^5.5",
-      "illuminate/auth": "^5.5",
-      "illuminate/support": "^5.5"
+      "illuminate/console": "^8.0",
+      "illuminate/auth": "^8.0",
+      "illuminate/support": "^8.0"
     }
 }
